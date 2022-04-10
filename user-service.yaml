@@ -38,3 +38,6 @@ eureka:
         waitDurationInOpenState: 5s
         failureRateThreshold: 50
         eventConsumerBufferSize: 10
+spring:
+  application:
+    zipkin://localhost:9411
